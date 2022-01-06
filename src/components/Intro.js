@@ -7,6 +7,9 @@ const Container = styled.div`
   height: calc(100vh-50px);
   display: flex;
   padding: 20px;
+  @media only screen and (max-width: 480px) {
+    flex-direction: column;
+  }
 `;
 const Left = styled.div`
   width: 60%;
@@ -14,10 +17,18 @@ const Left = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  @media only screen and (max-width: 480px) {
+    width: 100%;
+    height: 100%;
+  }
 `;
 const Title = styled.h1`
 width: 60%;
     font-size: 6;0px;
+     @media only screen and (max-width: 480px) {
+    width: 100%;
+    font-size: 30px;
+  }
 `;
 
 const Description = styled.p`
@@ -32,6 +43,9 @@ const Info = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
+  @media only screen and (max-width: 480px) {
+    flex-direction: column;
+  }
 `;
 const Button = styled.button`
   padding: 15px;

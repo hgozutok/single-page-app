@@ -2,13 +2,21 @@ import React from "react";
 import styled from "styled-components";
 import Phone from "../img/phone.png";
 import App from "../img/app.png";
+import { AnimatedShapes } from "./AnimatedShapes";
 const Container = styled.div`
   width: 100vw;
   height: 100vh;
   display: flex;
+  @media only screen and (max-width: 480px) {
+    flex-direction: column;
+    padding: 20px;
+  }
 `;
 const Left = styled.div`
   width: 50%;
+  @media only screen and (max-width: 480px) {
+    display: none;
+  }
 `;
 const Right = styled.div`
   width: 50%;
@@ -16,6 +24,9 @@ const Right = styled.div`
   flex-direction: column;
   justify-content: center;
   margin-top: 40px;
+  @media only screen and (max-width: 480px) {
+    width: 100%;
+  }
 `;
 
 const Image = styled.img`
@@ -25,6 +36,9 @@ const Image = styled.img`
 
 const Title = styled.span`
   font-size: 70px;
+  @media only screen and (max-width: 480px) {
+    font-size: 30px;
+  }
 `;
 const SubTitle = styled.span`
   font-size: 24px;
@@ -68,6 +82,7 @@ export const Features = () => {
         <Description>We care your business! </Description>
         <Button>Learn More</Button>
       </Right>
+      <AnimatedShapes />
     </Container>
   );
 };
