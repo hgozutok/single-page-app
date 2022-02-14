@@ -35,16 +35,6 @@ const Image = styled.img`
   margin-left: 100px;
 `;
 
-const Wrapper = styled.div`
-  padding: 50px;
-  display: flex;
-  flex-direction: column;
-  @media only screen and (max-width: 480px) {
-    padding: 20px;
-    width: 100%;
-  }
-`;
-
 const Title = styled.h1`
   font-size: 70px;
 `;

@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import Phone from "../img/phone.png";
+
 import App from "../img/app.png";
 import { AnimatedShapes } from "./AnimatedShapes";
 const Container = styled.div`

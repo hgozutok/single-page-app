@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+
 import "./App.css";
 import styledComponents, { css } from "styled-components";
 import { Navbar } from "./components/Navbar";
