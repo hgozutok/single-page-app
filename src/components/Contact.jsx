@@ -108,7 +108,7 @@ const Button = styled.button`
   letter-spacing: 2px;
   cursor: pointer;
   font-size: 15px;
-`;
+`;  
 
 const Title = styled.h1`
   font-size: 70px;
