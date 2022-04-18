@@ -8,7 +8,7 @@ const Container = styled.div`
   height: 90%;
   background: url("https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
 `;
-const Wrapper = styled.div`
+const Wrapper = styled.div`   
   height: 100%;
   padding: 50px;
   display: flex;
